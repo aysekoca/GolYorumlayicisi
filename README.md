@@ -18,6 +18,7 @@ Bu algoritma, belirli bir formatta komutların işlenmesi gereken birçok durumd
 Bu algoritmalar, gol_ yorumlayici() fonksiyonunun çalışması için kullanılır.
 gol_yorumlayici() fonksiyonu, bir string komutunu alır ve belirli bir sırayla "G", "()" ve/veya "(l)" harflerinden oluşan bu komutu yorumlayarak, sonuç olarak yorumlanmış bir string döndürür. Fonksiyon, her karakteri tek tek kontrol ederek, belirli karakterlerin varlığına bağlı olarak yorumlama yapar. Yorumlama işlemi sırasında, strncat() fonksiyonu kullanılarak yorumlanmış string, adım adım birleştirilir. Sonuç olarak, yorumlanmış string, yorumlayici() fonksiyonundan döndürülür.
 main() fonksiyonu ise, örnek bir komut stringi tanımlar ve yorumlayici() fonksiyonunu çağırarak yorumlanmış stringi alır. Sonrasında, yorumlanmış stringi ekrana yazdırır ve bellek için ayrılan yerleri serbest bırakır.
+
 Bu algoritma, özellikle belirli bir formata sahip komutları işlemek için kullanılabilir. Örneğin, bu algoritma, belirli bir oyunun skorunu kaydetmek için kullanılabilir. Oyun skoru, "G", "()" ve "(l)" karakterlerinden oluşan bir komut olarak kodlanabilir ve bu komut, yorumlayıcı fonksiyonu kullanılarak yorumlanabilir.
 
 # KOD NASIL KULLANILIR , NASIL TEST EDİLİR?
